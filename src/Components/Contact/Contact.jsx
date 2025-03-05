@@ -2,7 +2,7 @@ import React from 'react';
 import "./Contact.css";
 import { IoCall } from "react-icons/io5";
 import { IoMail } from "react-icons/io5";
-import Working from '../../assets/Images/Working.svg';
+import Working from '../../assets/Images/working.svg';
 import ContactBG from '../../assets/Images/contactglobe.svg';
 import ContactSpiral from '../../assets/Images/contactspiral.svg';
 import Footer from '../Footer/Footer';
