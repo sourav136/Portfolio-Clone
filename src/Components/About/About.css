@@ -118,6 +118,10 @@
     .about{
         height: max-content;
     }
+
+    .about-circle-container{
+        bottom: -10%;
+    }
 }
 
 @media (max-width: 450px){
