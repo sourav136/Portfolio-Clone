@@ -1,0 +1,75 @@
+.SideNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 0 50px 50px 0;
+    width: 80px;
+    max-height: 700px;
+    height: 75vh;
+    backdrop-filter: blur(20.107913970947266px);
+    box-shadow: 0 40px 40px 0 rgba(69, 42, 124, 0.15);
+    background: rgba(255, 255, 255, 0.4);
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 100;
+}
+
+.SideNav a{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    background-color: transparent;
+    transition: 0.3s ease;
+}
+
+.SideNav-item{
+    background-color: transparent;
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    color: black;
+
+}
+
+.SideNav a.active {
+    /* background: linear-gradient(to right, #666, #222); */
+    position: relative;
+    color: #fff;
+}
+
+.SideNav a.active::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    /* background: black; */
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.active-item{
+    color: #fff;
+}
+
+@media (max-width: 575.98px){
+    .SideNav-item{
+        height: 18px;
+        width: 18px;
+    }
+
+    .SideNav a.active::before{
+        height: 45px;
+        width: 45px;
+    }
+
+    .SideNav{
+        width: 60px;
+    }
+}

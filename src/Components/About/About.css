@@ -1,0 +1,131 @@
+.about{
+    background-color:  #0f103f;
+    height: 1024px;
+    overflow: hidden;
+}
+
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+.about-content-holder{
+    border-radius: 350px;
+    width: 630px;
+    height: 630px;
+    background: linear-gradient(144deg, #c961de 0%, #2954a3 100%);
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+}
+
+.confident-image{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+
+.about-h3{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+.about-p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    color: #fff;
+}
+
+.about-text{
+    width: 50%;
+    max-width: 300px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50%;
+}
+
+.about-container{
+    position: relative;
+}
+
+.about-circle-container{
+    position: absolute;
+    bottom: 3%;
+}
+
+.about-ruby{
+    position: absolute;
+    bottom: -25%;
+    right: -5%;
+    z-index: 30;
+    animation: rubyAnimation 3s ease infinite;
+}
+
+@keyframes rubyAnimation{
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(30px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@media (max-width: 992px){
+    .about-content-holder{
+        scale: 0.9;
+    }
+
+    .about-circle-container{
+        scale: 0.9;
+    }
+}
+
+@media (max-width: 768px){
+    .about-content-holder{
+        scale: 0.7;
+    }
+
+    .about-circle-container{
+        scale: 0.7;
+    }
+}
+
+@media (max-width: 576px){
+    .about-content-holder{
+        scale: 0.6;
+    }
+
+    .about-circle-container{
+        scale: 0.5;
+    }
+
+    .about{
+        height: max-content;
+    }
+}
+
+@media (max-width: 450px){
+    .about-content-holder{
+        scale: 0.5;
+    }
+
+    .about-circle-container{
+        scale: 0.4;
+    }
+}
