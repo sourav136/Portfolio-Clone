@@ -20,7 +20,7 @@ const Home = () => {
                         <div className="home-buttons">
                             <Link to="/contact" className='hire-button'>Hire me</Link>
                             <a 
-                            href="https://drive.google.com/uc?export=download&id=1wbWlApZTlF64sJ4EfZI64W62I0D5IGMz" 
+                            href="https://drive.google.com/uc?export=download&id=1jXlUejp6iv-4KvhG2qmnsWb06EKE5Y76"
                             className='cv-button'>
                                 Download CV
                             </a>
