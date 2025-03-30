@@ -14,7 +14,7 @@ const Home = () => {
         <div>
             <div className="home" id='home'>
                 <div className="container home-container">
-                    <img className='svg-1' src={svg1} alt="" />
+                    <img className='svg-1' src={svg1} alt="Ruby image" />
                     <div className="home-text">
                         <h2 className='home-h2'>Creative UI Designer Sourasith Phomhome Based in Montreal</h2>
                         <div className="home-buttons">
@@ -26,7 +26,7 @@ const Home = () => {
                             </a>
                         </div>
                     </div>
-                    <img className='svg-2' src={svg2} alt="" />
+                    <img className='svg-2' src={svg2} alt="planet image" />
                 </div>
             </div>
             <About/>

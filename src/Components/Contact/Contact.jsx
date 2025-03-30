@@ -39,18 +39,18 @@ const Contact = () => {
                             <div className="contact-message">
                                 <h4 className='contact-h4'>Send me a message</h4>
                                 <form action="https://formsubmit.co/souravbarua789bd@gmail.com" method="POST">
-                                    <input className='contact-input' type="text" name="name" placeholder="Name" required/>
-                                    <input className='contact-input' type="email" name="email" placeholder="Email Address" required/>
-                                    <input className='contact-input' type="text" name="subject" placeholder="Subject" required/>
-                                    <textarea className='contact-textarea' name="message" placeholder="Your message" required></textarea>
+                                    <input className='contact-input' type="text" name="name" placeholder="Name" required autoComplete='name'/>
+                                    <input className='contact-input' type="email" name="email" placeholder="Email Address" required autoComplete='email'/>
+                                    <input className='contact-input' type="text" name="subject" placeholder="Subject" required autoComplete='off'/>
+                                    <textarea className='contact-textarea' name="message" placeholder="Your message" required autoComplete='off'></textarea>
                                     <button className='submit-button' type="submit">Send Message</button>
                                 </form>
                             </div>
                         </div>
-                        <img className='working-image' src={Working} alt="" />
+                        <img className='working-image' src={Working} alt="A woman working on a laptop with a confident expression" />
                     </div>
-                    <img className='contact-bg' src={ContactBG} alt="" />
-                    <img className='contact-spiral' src={ContactSpiral} alt="" />
+                    <img className='contact-bg' src={ContactBG} alt="ruby with spiral" />
+                    <img className='contact-spiral' src={ContactSpiral} alt="a half globe planet" />
                 </div>
             </div>
             <Footer/>

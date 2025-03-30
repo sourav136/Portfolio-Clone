@@ -14,7 +14,7 @@ const Footer = () => {
             <footer>
                 <div className="footer-content h-100">
                     <div className="container footer-container">
-                        <img className='footer-image' src={FooterGlobe} alt="" />
+                        <img className='footer-image' src={FooterGlobe} alt="Planet image" />
                         <div className="footer-link-container">
                             <div className="link-div">
                                 <LiaHomeSolid className='footer-link-icon' />

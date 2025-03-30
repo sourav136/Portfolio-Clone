@@ -17,7 +17,7 @@ const Works = () => {
         <div>
             <div className="work">
                 <div className="container work-container">
-                    <img className='work-bg' src={WorkBG} alt="" />
+                    <img className='work-bg' src={WorkBG} alt="circle illustration" />
                     <Swiper
                         effect={'coverflow'}
                         grabCursor={true}
